@@ -1,30 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/prakhar/Documents/test_projects/tmp/dotnet-cg-generation-test/DotNETApp/DotNETApp.csproj": {}
+    "/Users/kamakshyaprasadkar/Desktop/Kamakshya_sample_repo/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj": {}
   },
   "projects": {
-    "/Users/prakhar/Documents/test_projects/tmp/dotnet-cg-generation-test/DotNETApp/DotNETApp.csproj": {
+    "/Users/kamakshyaprasadkar/Desktop/Kamakshya_sample_repo/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/prakhar/Documents/test_projects/tmp/dotnet-cg-generation-test/DotNETApp/DotNETApp.csproj",
+        "projectUniqueName": "/Users/kamakshyaprasadkar/Desktop/Kamakshya_sample_repo/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
         "projectName": "DotNETApp",
-        "projectPath": "/Users/prakhar/Documents/test_projects/tmp/dotnet-cg-generation-test/DotNETApp/DotNETApp.csproj",
-        "packagesPath": "/Users/prakhar/.nuget/packages/",
-        "outputPath": "/Users/prakhar/Documents/test_projects/tmp/dotnet-cg-generation-test/DotNETApp/obj/",
+        "projectPath": "/Users/kamakshyaprasadkar/Desktop/Kamakshya_sample_repo/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
+        "packagesPath": "/Users/kamakshyaprasadkar/.nuget/packages/",
+        "outputPath": "/Users/kamakshyaprasadkar/Desktop/Kamakshya_sample_repo/dotnet/dotnet-cg-repo/DotNETApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/prakhar/.nuget/NuGet/NuGet.Config"
+          "/Users/kamakshyaprasadkar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.dev.endorlabs.com/repository/nuget-hosted/": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -32,11 +33,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "CoreFtp": {
               "target": "Package",
@@ -107,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.1.23463.5/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

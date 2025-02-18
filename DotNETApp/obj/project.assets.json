@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net9.0": {
       "CoreFtp/1.4.0": {
         "type": "package",
         "dependencies": {
@@ -11063,7 +11063,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net9.0": [
       "CoreFtp >= 1.4.0",
       "DotNetNuke.Core >= 9.1.1.129",
       "DotNetZip >= 1.10.1",
@@ -11080,29 +11080,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/prakhar/.nuget/packages/": {}
+    "/Users/kamakshyaprasadkar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/prakhar/Documents/test_projects/tmp/dotnet-cg-generation-test/DotNETApp/DotNETApp.csproj",
+      "projectUniqueName": "/Users/kamakshyaprasadkar/Desktop/Kamakshya_sample_repo/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
       "projectName": "DotNETApp",
-      "projectPath": "/Users/prakhar/Documents/test_projects/tmp/dotnet-cg-generation-test/DotNETApp/DotNETApp.csproj",
-      "packagesPath": "/Users/prakhar/.nuget/packages/",
-      "outputPath": "/Users/prakhar/Documents/test_projects/tmp/dotnet-cg-generation-test/DotNETApp/obj/",
+      "projectPath": "/Users/kamakshyaprasadkar/Desktop/Kamakshya_sample_repo/dotnet/dotnet-cg-repo/DotNETApp/DotNETApp.csproj",
+      "packagesPath": "/Users/kamakshyaprasadkar/.nuget/packages/",
+      "outputPath": "/Users/kamakshyaprasadkar/Desktop/Kamakshya_sample_repo/dotnet/dotnet-cg-repo/DotNETApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/prakhar/.nuget/NuGet/NuGet.Config"
+        "/Users/kamakshyaprasadkar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net9.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.dev.endorlabs.com/repository/nuget-hosted/": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -11110,11 +11111,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "dependencies": {
           "CoreFtp": {
             "target": "Package",
@@ -11185,7 +11192,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.1.23463.5/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -11197,7 +11204,7 @@
       "message": "Package 'CoreFtp' 1.4.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-w393-h95m-f879",
       "libraryId": "CoreFtp",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11207,7 +11214,7 @@
       "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known high severity vulnerability, https://github.com/advisories/GHSA-4qf5-7xc2-wqpg",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11217,7 +11224,7 @@
       "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5whq-j5qg-wjvp",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11227,7 +11234,7 @@
       "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9phr-h5mx-4fp6",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11237,7 +11244,7 @@
       "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9w72-2f23-57gm",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11247,7 +11254,7 @@
       "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known high severity vulnerability, https://github.com/advisories/GHSA-g8j6-m4p7-5rfq",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11257,7 +11264,7 @@
       "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known high severity vulnerability, https://github.com/advisories/GHSA-j3g9-6fx5-gjv7",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11267,7 +11274,7 @@
       "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vjcm-j85r-7p68",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11277,7 +11284,7 @@
       "message": "Package 'DotNetNuke.Core' 9.1.1.129 has a known high severity vulnerability, https://github.com/advisories/GHSA-xx3h-j3cx-8qfj",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11287,7 +11294,17 @@
       "message": "Package 'DotNetZip' 1.10.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-7378-6268-4278",
       "libraryId": "DotNetZip",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetZip' 1.10.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-xhg6-9j5j-w4vf",
+      "libraryId": "DotNetZip",
+      "targetGraphs": [
+        "net9.0"
       ]
     },
     {
@@ -11297,7 +11314,7 @@
       "message": "Package 'log4net' 2.0.9 has a known critical severity vulnerability, https://github.com/advisories/GHSA-2cwj-8chv-9pp9",
       "libraryId": "log4net",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11307,7 +11324,7 @@
       "message": "Package 'Microsoft.AspNetCore.SpaServices' 2.2.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xr8f-59pp-rxxh",
       "libraryId": "Microsoft.AspNetCore.SpaServices",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11317,7 +11334,27 @@
       "message": "Package 'Microsoft.IdentityModel.Clients.ActiveDirectory' 5.1.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-xc6x-cq47-9chw",
       "libraryId": "Microsoft.IdentityModel.Clients.ActiveDirectory",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OPCFoundation.NetStandard.Opc.Ua' 1.4.353.14 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-7vfh-cqpc-4267",
+      "libraryId": "OPCFoundation.NetStandard.Opc.Ua",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OPCFoundation.NetStandard.Opc.Ua' 1.4.353.14 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-7wwr-h8cm-9jf7",
+      "libraryId": "OPCFoundation.NetStandard.Opc.Ua",
+      "targetGraphs": [
+        "net9.0"
       ]
     },
     {
@@ -11327,7 +11364,27 @@
       "message": "Package 'OPCFoundation.NetStandard.Opc.Ua' 1.4.353.14 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9q94-v7ch-mxqw",
       "libraryId": "OPCFoundation.NetStandard.Opc.Ua",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OPCFoundation.NetStandard.Opc.Ua' 1.4.353.14 has a known high severity vulnerability, https://github.com/advisories/GHSA-qm9f-c3v9-wphv",
+      "libraryId": "OPCFoundation.NetStandard.Opc.Ua",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OPCFoundation.NetStandard.Opc.Ua' 1.4.353.14 has a known high severity vulnerability, https://github.com/advisories/GHSA-qv5f-57gw-vx3h",
+      "libraryId": "OPCFoundation.NetStandard.Opc.Ua",
+      "targetGraphs": [
+        "net9.0"
       ]
     },
     {
@@ -11337,7 +11394,7 @@
       "message": "Package 'ServiceStack' 5.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v5rv-hpxg-8x49",
       "libraryId": "ServiceStack",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11347,7 +11404,7 @@
       "message": "Package 'ServiceStack' 5.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vcfc-9wcp-j623",
       "libraryId": "ServiceStack",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11357,7 +11414,7 @@
       "message": "Package 'SharpCompress' 0.20.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-fxh6-w476-hgr4",
       "libraryId": "SharpCompress",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11367,7 +11424,7 @@
       "message": "Package 'SharpCompress' 0.20.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jp7f-grcv-6mjf",
       "libraryId": "SharpCompress",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11377,7 +11434,7 @@
       "message": "Package 'SharpZipLib' 1.0.0-alpha2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-cqj4-m2pc-v9m5",
       "libraryId": "SharpZipLib",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11387,7 +11444,7 @@
       "message": "Package 'SharpZipLib' 1.0.0-alpha2 has a known high severity vulnerability, https://github.com/advisories/GHSA-m22m-h4rf-pwq3",
       "libraryId": "SharpZipLib",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
@@ -11397,27 +11454,27 @@
       "message": "Package 'YamlDotNet' 4.3.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-rpch-cqj9-h65r",
       "libraryId": "YamlDotNet",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetNuke.Core 9.1.1.129' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetNuke.Core 9.1.1.129' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetNuke.Core",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'DotNetZip 1.10.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'DotNetZip 1.10.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
       "libraryId": "DotNetZip",
       "targetGraphs": [
-        "net7.0"
+        "net9.0"
       ]
     }
   ]
